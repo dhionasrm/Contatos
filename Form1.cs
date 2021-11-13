@@ -14,7 +14,7 @@ namespace Macoratti
 	/// </summary>
 	public class Form1 : System.Windows.Forms.Form
 	{
-		MySqlConnection conMySQL = new MySqlConnection("uid=root; password=gpxpst; database=cadastro");
+		MySqlConnection conMySQL = new MySqlConnection("Server=localhost; uid=root; password=@dmtiwgvd9; database=cadastro");
 		MySqlCommand cmdMySQL = new MySqlCommand();
 		MySqlDataReader reader;
 		string status;
